@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <header><h1>KambaMath</h1></header>
+    <hgroup>
+        <h3>Calculadora</h3>
+        <p>Realiza operações artiméticas fundamentais</p>
+    </hgroup>
+    <div class="container">
+        <div class="form-item">
+            <label for="num1">Valor 1</label>
+            <input type="number" name="num1" id="num1" placeholder="Digite o Primeiro Valor">
+        </div>
+        <div class="form-item">
+            <label for="num1">Valor 2</label>
+            <input type="number" name="num1" id="num2" placeholder="Digite o Segundo Valor">
+        </div>
+        <div class="form-item">
+            <label for="operacao">Operação</label>
+            <select name="operacao" id="operacao">
+                <option value="0">Escolhe a Operação</option>
+                <option value="1">Soma</option>
+                <option value="2">Subtração</option>
+                <option value="3">Multiplicação</option>
+                <option value="4">Divisão</option>
+            </select>
+        </div>
+        <div class="form-item">
+            <button onclick="calcular()">Calcular</button>
+            <button onclick="cancelar()">Cancelar</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <span>O resultado é: </span>
+        <span id="resultado"></span>
+    </div>
+
+    <footer>Copyright © 2023 KambaMath. Developed By MIGUEL KAMBAMBA</footer>
+</body>
+</html>
