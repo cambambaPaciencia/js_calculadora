@@ -6,12 +6,12 @@ function calcular()
     var num2 = document.getElementById('num2').value;
 
     if(num1 == null || num1 == ''){
-        alert('Digite números para Valor 1');
+        alert('Digite números para Primeiro Valor');
         return false;
     }
 
     if(num2 == null || num2 == ''){
-        alert('Digite números para Valor 2');
+        alert('Digite números para Segundo Valor'); 
         return false;
     }
 
