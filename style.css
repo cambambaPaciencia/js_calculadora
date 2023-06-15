@@ -63,7 +63,7 @@ input:focus-visible{
 }
 
 input::placeholder{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 button{
